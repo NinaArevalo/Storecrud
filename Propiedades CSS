@@ -1,0 +1,38 @@
+Propiedades CSS
+Estructura y Posicionamiento
+
+    display: flex;: Alinea elementos en filas o columnas de forma flexible.
+
+    display: grid;: Crea una rejilla de filas y columnas para diseños más complejos.
+
+    grid-template-columns: Define cuántas columnas tiene tu rejilla (ej. 4 columnas en productos).
+
+    gap: Define el espacio entre elementos dentro de un Flex o Grid.
+
+    position: absolute; y relative;: Permite poner elementos uno encima de otro (como el texto sobre la imagen del Hero).
+
+    z-index: Define el orden de las capas (qué elemento queda arriba de cuál).
+
+Estilos Visuales
+
+    background-color: Cambia el color del fondo.
+
+    border-radius: Redondea las esquinas (usado para tus botones y tarjetas).
+
+    box-sizing: border-box;: Asegura que el padding no afecte el ancho total del elemento.
+
+    object-fit: cover / contain;: Controla cómo se ajustan las imágenes a sus contenedores sin deformarse.
+
+    text-transform: uppercase;: Pone todo el texto en mayúsculas automáticamente.
+
+    opacity: Controla la transparencia de un elemento.
+
+Animación y Responsive
+
+    transition: Crea una animación suave al pasar el mouse (efecto de agrandar imágenes).
+
+    transform: scale(1.1);: Agranda ligeramente un elemento en el hover.
+
+    overflow-x: auto;: Crea la barra de desplazamiento horizontal para tus testimonios.
+
+    @media (Media Queries): Permite aplicar estilos diferentes según el tamaño de la pantalla (Responsive).
