@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lilita+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lilita+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>CRUD.STORE</title>
+</head>
+<body>
+    <header>
+        <nav class="first">
+            <p>Sign up and get 20% off to your first order. <u>Sign Up Now.</u></p>
+        </nav>
+    <div class="main-header-bar">
+        <nav class="primary-nav">
+            <h1>CRUD.STORE</h1>
+            <ul class="main-menu">
+                <li><a href="#">Shop<i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="submenu">
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Kids</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">On Sale</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Brands</a></li>
+            </ul>
+        </nav>
+        <div class="user-actions">
+            <form action="/buscar" method="GET" class="search-form">
+            <button type="submit" class="btn-lupa">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="q" placeholder="Search for products..." required>
+            
+            </button>
+            </form>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="#"><i class="fa-regular fa-circle-user"></i></a>
+        </div>
+    </div>
+    </header>
+    <section class="hero-section">
+        <div class="info-intern">
+        <img src="img/Rectangle 2.png" alt="rectangulo" class="hero-model-image">
+        <div class="hero-content-wrapper">
+            <div class="hero-text-box">
+                <h1>FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
+                <p>Browse through out diverse range of meticulosly crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
+                <div>
+                    <a href="#" class="button-shop-now">Shop Now</a>
+                </div>
+                
+            <div class="stats-container">
+                <div class="Items">
+                    <span class="number">200+</span>
+                    <span class="label">International Brands</span>
+                </div>
+                <div class="Items">
+                    <span class="number">2,000+</span>
+                    <span class="label">High-Quality Products</span>
+                </div>
+                <div class="Items">
+                    <span class="number">30,000+</span>
+                    <span class="label">Happy Customers</span>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <nav class="marcas">
+                <img src="img/versage.png" alt="versage">
+                <img src="img/zara-logo-1 1.png" alt="Zara">
+                <img src="img/gucci-logo-1 1.png" alt="gucci">
+                <img src="img/prada-logo-1 1.png" alt="prada">
+                <img src="img/Group.png" alt="calvin">
+        </nav>
+    </section>
+    <main>
+        <h2>New arrivals</h2>
+        <section class="Newarrivals">
+            <div>
+                <img src="img/Frame 32.png" alt="t-shirt">
+                <h3>T-shirt with Tape Details</h3>
+                <div class="rating-icons">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star-half" style="color: #FFD43B;"></i>
+                    <p>4.5/5</p>
+                </div>
+                <div class="price-container">
+                    <h4>$120</h4>
+                </div>
+            </div>
+            <div>
+                <img src="img/Frame 33.png" alt="pant">
+                <h3>Skinny Fit Jeans</h3>
+                <div>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star-half" style="color: #FFD43B;"></i>
+                    <p>3.5/5</p>
+                </div>
+                <div class="price-container">
+                    <h4>$240</h4>
+                    <h4><del>$260</del></h4>
+                    <h5>-20%</h5>
+                </div>
+            </div>
+            <div>
+                <img src="img/Frame 34.png" alt="checkered">
+                <h3>Checkered Shirt</h3>
+                <div>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star-half" style="color: #FFD43B;"></i>
+                    <p>4.5/5</p>
+                </div>
+                <div class="price-container">
+                    <h4>$180</h4>
+                </div>
+            </div>
+            <div>
+                <img src="img/Frame 38.png" alt="sleeve">
+                <h3>Sleeve Striped T-shirt</h3>
+                <div>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star-half" style="color: #FFD43B;"></i>
+                    <p>4.5/5</p>
+                </div>
+                <div class="price-container">
+                    <h4>$130</h4>
+                    <h4><del>$160</del></h4>
+                    <h5>-30%</h5>
+                </div>
+            </div>
+        
+            <a href="#" class="btn-viewallnewa">View All</a>
+        
+        </section>
+        <hr class="separator">
+        <h2>top selling</h2>
+        <section class="topselling">
+            <div>
+                <img src="img/verticall.png" alt="verticall">
+                <h3>Vertical Striped Shirt</h3>
+                <div class="rating-icons">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <p>5.0/5</p>
+                </div>
+                <div class="price-container">
+                    <h4>$212</h4>
+                    <h4><del>$232</del></h4>
+                    <h5>-20%</h5>
+                </div>
+            </div>
+            <div>
+                <img src="img/courage.png" alt="courage">
+                <h3>Courage Graphic T-shirt</h3>
+                <div>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <p>4.0/5</p>
+                </div>
+                <div class="price-container">
+                    <h4>$145</h4>
+                </div>
+            </div>
+            <div>
+                <img src="img/loose.png" alt="loose">
+                <h3>Checkered Shirt</h3>
+                <div>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <p>3.0/5</p>
+                </div>
+                <div class="price-container">
+                    <h4>$80</h4>
+                </div>
+            </div>
+            <div>
+                <img src="img/faded.png" alt="faded">
+                <h3>Sleeve Striped T-shirt</h3>
+                <div>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star-half" style="color: #FFD43B;"></i>
+                    <p>4.5/5</p>
+                </div>
+                <div class="price-container">
+                    <h4>$210</h4>
+                </div>
+            </div>
+            <a href="#" class="btn-viewalltop">View All</a>
+        </section>
+        
+        <section class="browse">
+            <h2>BROWSE BY dress STYLE</h2>
+                <div class="box-cards">
+                    <img src="img/Frame 61.png" alt="casual" class="card-small">
+                    <img src="img/Frame 62.png" alt="formal" class="card-large">
+                    <img src="img/Frame 64.png" alt="party" class="card-large">
+                    <img src="img/Frame 63.png" alt="gym" class="card-small">
+                </div>
+        </section>
+        <section class="testinominals">
+            <section class="testimonials-header">
+            <h2>OUR HAPPY CUSTOMERS</h2>
+            <div class="arrows">
+                <span>←</span>
+                <span>→</span>
+            </div>
+            </section>
+        <section class="testimonials-container">
+            <div>
+                <div>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                </div>
+                <h3>Sarah M.<i class="fa-solid fa-circle-check" style="color: #01ab31;"></i></h3>
+                <p>"I'm blown away by the queality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations."</p>
+            </div>
+            <div>
+                <div>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                </div>
+                <h3>Alex K.<i class="fa-solid fa-circle-check" style="color: #01ab31;"></i></h3>
+                <p>"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions."</p>
+            </div>
+            <div>
+                <div>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                </div>
+                <h3>James L.<i class="fa-solid fa-circle-check" style="color: #01ab31;"></i></h3>
+                <p>"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends."</p>
+            </div>
+            <div>
+                <div>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                </div>
+                <h3>Rafael J.<i class="fa-solid fa-circle-check" style="color: #01ab31;"></i></h3>
+                <p>"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends."</p>
+            </div>
+           </section> 
+        </section>
+            <div class="uptodate">
+                <h1>STAY UPTO DATE ABOUT OUR LATEST OFFERS</h1>
+                <div>
+                    <button class="btn-carts"></button>
+                    <i class="fa-regular fa-envelope"></i>
+                    </button>
+                    <form action="/keep" method="GET">
+                    <input type="text" class="get-email" name="q" placeholder="Enter your email address" required>
+                    <button class="subscribe-news"><p>Subscribe to Newsletter</p></button>
+                </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-top">
+            <div class="footer-info">
+            <h2 class="footer-log">CRUD.STORE</h2>
+            <p class="company-description">We have clothes that suits your style and which you're proud to wear. From women to men.</p>
+            <div class="social-icons">
+                <i class="fa-brands fa-twitter" style="color: #000000;"></i>
+                <i class="fa-brands fa-facebook" style="color: #000000;"></i>
+                <i class="fa-brands fa-instagram" style="color: #000000;"></i>
+                <i class="fa-brands fa-github" style="color: #000000;"></i>
+            </div>
+            </div>
+
+        <div class="footer-column">
+            <h4>COMPANY</h4>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Works</a></li>
+                <li><a href="#">Career</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>HELP</h4>
+            <ul>
+                <li><a href="#">Customer Support</a></li>
+                <li><a href="#">Delivery Details</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>FAQ</h4>
+            <ul>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Manage Deliveries</a></li>
+                <li><a href="#">Orders</a></li>
+                <li><a href="#">Payments</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>RESOURCES</h4>
+            <ul>
+                <li><a href="#">Free eBooks</a></li>
+                <li><a href="#">Development Tutorial</a></li>
+                <li><a href="#">How to - Blog</a></li>
+                <li><a href="#">Youtube Playlist</a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="credits">
+            <p>Crudzaso.com © 2025, All Rights Reserved</p>
+            <img src="img/Frame 53.png" alt="payments">
+        </div>
+    </footer>
+</body>
+</html>
