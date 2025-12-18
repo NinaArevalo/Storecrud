@@ -1,0 +1,23 @@
+Etiqueta	Descripción
+
+<!DOCTYPE html>	Define que el documento es un archivo HTML5.
+<html>	El contenedor raíz de toda la página web.
+<head>	Contiene metadatos (título, fuentes, enlaces a CSS) que no se ven en la página.
+<body>	Contiene todo el contenido visible de tu sitio.
+<header>	Define la sección superior (menú, logo, barra de búsqueda).
+<nav>	Define bloques de navegación (menús de enlaces).
+<ul> y <li>	Lista desordenada y elementos de lista (usados para tus menús).
+<h1> - <h5>	Títulos jerárquicos. El h1 es el más importante y el h5 el menor.
+<a>	Hipervínculo para conectar a otras páginas o secciones.
+<form>	Contenedor para la barra de búsqueda y suscripción.
+<input>	Campo donde el usuario escribe texto (email o búsqueda).
+<button>	Botón interactivo para enviar formularios.
+<section>	Define secciones independientes en el documento (Hero, Products, etc.).
+<main>	Define el contenido principal y único de la página.
+<div>	Contenedor genérico usado para agrupar y aplicar estilos CSS.
+<img>	Inserta imágenes en la página.
+<span>	Contenedor de texto en línea para aplicar estilos a partes específicas.
+<i>	Usado aquí para insertar iconos de Font Awesome.
+<hr>	Una línea horizontal para separar visualmente secciones.
+<del>	Define texto borrado o tachado (usado para precios antiguos).
+<footer>	La sección final de la página con información de contacto y créditos.
