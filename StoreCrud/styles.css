@@ -23,7 +23,7 @@
 
 /* Done */
 
-.hero.section {
+.hero-section {
     position: relative;
     height: 400px;
     overflow: hidden;
@@ -302,7 +302,7 @@ main h2 {
 .Newarrivals img:hover, .topselling img:hover {
     transform: scale(1.1);
     border-color: #666;
-    box-shadow: 0 0 15px 5 px #666;
+    box-shadow: 0 0 15px 5px #666;
     max-width: 100%;
 }
 
